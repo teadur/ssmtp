@@ -5,6 +5,7 @@ ssmtp:
   # User and group that will be able to use ssmtp
   group: ~
   restrict: true
+  configure_hostname: false
   revaliases: true
   use_inventory_hostname: false
   user: ~
